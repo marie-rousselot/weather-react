@@ -62,6 +62,32 @@ export default function Weather() {
             <li>Wind: {weatherData.wind} km/h</li>
           </ul>
         </div>
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://www.shecodes.io/graduates/111105-marie-rousselot"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Marie Rousselot
+          </a>{" "}
+          and is open-sourced on{" "}
+          <a
+            href="https://github.com/marie-rousselot/weather-react"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Github
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://weather-react-homework-week-4.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Netlify
+          </a>
+        </footer>
       </div>
     </div>
   );
